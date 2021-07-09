@@ -1,9 +1,7 @@
-
 li{display: inline-block; vertical-align: top;}
 ul{font-family: arial; align-items: left;
     word-spacing: 65px;font-size: 25px;}
 footer {
-
     bottom:0;
     width:100%;
     box-shadow: 10px -75px 30px #A0BED9 inset;
@@ -48,16 +46,18 @@ flex-wrap: wrap;
 width: 100vw;
 }
 
-.boxed {width: 250px;
+.boxed {width: 450px;
 height: 80px;
 background-color: teal;
 margin-left: 40px;
 justify-content: center;
 position:inherit;
 align-items: center;
-border-radius: 30px 0px 30px 0px;
+border-radius: 25px 0px 25px 0px;
 display: flex;
 margin-bottom: 40px;
+overflow: hidden
+  
   }
 
     
@@ -68,8 +68,6 @@ body {font-family: 'Montserrat', sans-serif;}
   	padding-bottom:12px;
     min-height: 25px;
     color: black;}
-
-
 .containFooter {margin: 0 auto; max-width: 1035px; 
         vertical-align: middle;
         padding-top:10px;
@@ -79,34 +77,34 @@ body {font-family: 'Montserrat', sans-serif;}
         color: white;}
         .containFooter .linkedin {float: right; margin-right: 40px;}
 
-.item1 { grid-area: header; }
+.item1 { grid-area: header;}
 .item2 { grid-area: menu; }
-.item3 { grid-area: main;
+.item3 { grid-area: main; background-image: url("https://thumbs.dreamstime.com/b/abstract-gray-pixel-texture-vertical-technology-background-format-business-light-pixel-pattern-paper-size-pixelated-vector-81707702.jpg");
+  background-size: contain; 
 display: flex;
 flex-direction: column;
 align-items: center; }
-.item4 { grid-area: list}
+.item4 { grid-area: list ;
+  font-size: 12px !important;
+  background-size: contain;}
 
 .grid-container {
   display: grid;
   grid-template-areas:
-    'menu menu header header header header'
-    'list list main main main main'
-    'list list main main main main';
+    'menu menu menu header header header'
+     'list list list main main main'
+    'list list list main main main';
   grid-gap: 10px;
-  background-color: #cf1c1c;
-  padding: 10px;
+  padding: 0px;
   max-width: 1035px; 
 margin: 0 auto;}
 
 .grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
-  padding: 20px 0;
+  text-align: Left; 
+  padding-left: 20px;
+  padding-top: 20px;
   font-size: 30px;
 }
-
-
 
 @media only screen and (max-width: 900px)
 { body
