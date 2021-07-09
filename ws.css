@@ -26,7 +26,7 @@ max-width: 420px;
 
 .titleText {font-size: 20;
 margin-top: 100px;
-padding-left:40px;}
+padding-left:00px;}
 
 .heroContainer{background-image: url(../images/hero2.jpg); 
     background-repeat:no-repeat; 
@@ -47,16 +47,16 @@ width: 100vw;
 }
 
 .boxed {width: 450px;
-height: 80px;
-background-color: teal;
-margin-left: 40px;
-justify-content: center;
-position:inherit;
-align-items: center;
-border-radius: 25px 0px 25px 0px;
-display: flex;
-margin-bottom: 40px;
-overflow: hidden
+  height: 80px;
+  background-color: teal;
+  margin-left: 0px;
+  justify-content: center;
+  position:inherit;
+  align-items: center;
+  border-radius: 25px 0px 25px 0px;
+  display: flex;
+  margin-bottom: 40px;
+  overflow: hidden
   
   }
 
@@ -77,16 +77,26 @@ body {font-family: 'Montserrat', sans-serif;}
         color: white;}
         .containFooter .linkedin {float: right; margin-right: 40px;}
 
-.item1 { grid-area: header;}
-.item2 { grid-area: menu; }
-.item3 { grid-area: main; background-image: url("https://thumbs.dreamstime.com/b/abstract-gray-pixel-texture-vertical-technology-background-format-business-light-pixel-pattern-paper-size-pixelated-vector-81707702.jpg");
-  background-size: contain; 
+.item1 { grid-area: header; background-image: url(ban.jpg);  
+  background-repeat: no-repeat;
+  background-size: 90%;
+  padding-left: 15px !important;}
+.item2 { grid-area: menu; background-image: url(ban.jpg);  
+  background-repeat: no-repeat;
+  background-size:90%;
+  background-position: 0 34%;
+  padding-left: 15px !important;}
+.item3 { grid-area: main; 
 display: flex;
 flex-direction: column;
-align-items: center; }
+align-items: left;
+padding-left: 15px !important;
+padding-right: 15px !important;}
 .item4 { grid-area: list ;
-  font-size: 12px !important;
-  background-size: contain;}
+  font-size: 14px !important;
+  background-size: contain;
+width: 85%;
+padding-left: 15px !important;}
 
 .grid-container {
   display: grid;
@@ -101,7 +111,7 @@ margin: 0 auto;}
 
 .grid-container > div {
   text-align: Left; 
-  padding-left: 20px;
+  padding-left: 0px;
   padding-top: 20px;
   font-size: 30px;
 }
