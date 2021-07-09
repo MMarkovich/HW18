@@ -116,7 +116,7 @@ margin: 0 auto;}
   font-size: 30px;
 }
 
-@media only screen and (max-width: 200px)
+@media only screen and (max-width: 1200px)
 { body
   .grid-container 
   { grid-template-areas:
